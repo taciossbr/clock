@@ -102,7 +102,7 @@
 
       const hour = now.getHours()
       const hourDegree = (hour / 60) * 360
-      hourHand.style.transform = `rotate(${hourDegree}deg)`
+      hourHand.style.transform = `rotate(${hourDegree + 180 - 45}deg)`
       
     }
 
